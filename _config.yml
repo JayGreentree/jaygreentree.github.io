@@ -10,12 +10,14 @@ tags:
   - netlify
 email: jay@jaygreentree.com
 disqus_username: jaygreentree
-show_hero: false
+show_hero: true
 menu:
   - title: Home
     url: /
-  - title: About
+  - title: Who We Are
     url: /about
+      - title: beliefs
+        url: /about/beliefs
   - title: Contact
     url: /contact
   - title: Feed
@@ -24,12 +26,12 @@ menu:
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: jaygreentree
+facebook_username: drummerboy1983
+twitter_username: jayTheITGuy1983
+instagram_username: jaygreentree
+linkedin_username: 
+medium_username: 
 
 
 # Posts Settings
