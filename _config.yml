@@ -10,7 +10,7 @@ tags:
   - netlify
 email: jay@jaygreentree.com
 disqus_username: jaygreentree
-show_hero: true
+show_hero: false
 menu:
   - title: Home
     url: /
