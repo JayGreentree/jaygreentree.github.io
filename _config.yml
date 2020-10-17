@@ -16,8 +16,8 @@ menu:
     url: /
   - title: Who We Are
     url: /about
-      - title: beliefs
-        url: /about/beliefs
+  - title: beliefs
+    url: /about/beliefs
   - title: Contact
     url: /contact
   - title: Feed
