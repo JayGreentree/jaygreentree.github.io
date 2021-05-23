@@ -43,7 +43,13 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ title }}">
     <meta name="twitter:description" content="{{ description }}">
-    <meta property="twitter:image:src" content="{{ image }}">
+
+    {% if image contains '://' %}
+        <meta property="twitter:image" content="{{ image }}">
+    {% else %}
+        <meta property="twitter:image" content="{{ image | prepend: site.url }}">
+    {% endif %}
+    
     {% if site.twitter_username %}
         <meta name="twitter:site" content="@{{ site.twitter_username }}">
     {% endif %}
@@ -94,5 +100,4 @@
     <script>
         document.querySelector('html').classList.remove('no-js');
     </script>
-    <script data-ad-client="ca-pub-9409957796535179" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>

@@ -68,7 +68,7 @@
                     if(i<settings.limit){
                         var output=settings.template;
                         for(var i=0;i<properties.length;i++){
-                            var regex = new RegExp("{" + properties[i] + "}", 'g');
+                            var regex = new RegExp("\{" + properties[i] + "\}", 'g');
                             output = output.replace(regex, entry[properties[i]]);
                         }
                         searchResults.append($(output));
